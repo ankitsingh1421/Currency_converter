@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+Currency_converter
+This is a simple currency converter built using React , typeScript .
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Currency_converter
+Welcome to the Currency_converter App! . this app purpose for converting the currency as per the user's choice  built using React , typeScript
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Interactive Design: The game has a user-friendly interface that is responsive and works well on different devices.
+chnage currency : changing the currency using your choice and also swap conversion oprion also by a swipping button !
+Favourite : also havong a star icon by which you can make make favourite the currency and it will show on top ever storing value using the localstorage and also having notification using toastify when you make favourite and remove from favourite .  
 
-## Expanding the ESLint configuration
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Enjoy the game and happy coding! 🚀
